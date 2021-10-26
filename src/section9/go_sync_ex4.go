@@ -17,7 +17,7 @@ func main() {
 	// https://golang.org/pkg/sync/atomic에서 계열 확인 가능
 	// 주로 공용 변수에 관한 계산 사용
 
-	// 원자성 사용 안할 경우 예제
+	// 원자성 사용 할 경우 예제
 	runtime.GOMAXPROCS(runtime.NumCPU())
 
 	var cnt int64 = 0
