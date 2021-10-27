@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-func notZero(n int) (string, error) { // 메소드 리턴 값 error 타입 중요!
+func notZero1(n int) (string, error) { // 메소드 리턴 값 error 타입 중요!
 	if n != 0 {
 		s := fmt.Sprint("Hello Golang: ", n)
 		return s, nil
@@ -14,7 +14,7 @@ func notZero(n int) (string, error) { // 메소드 리턴 값 error 타입 중�
 	return "", fmt.Errorf("%d를 입력했습니다. 에러 발생!", n)
 }
 
-func main() {
+func mainerror2() {
 	// 에러 처리
 	// Errorf를 이용한 에러 처리
 
