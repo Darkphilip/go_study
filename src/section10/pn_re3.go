@@ -1,4 +1,4 @@
-// Panic & Recovery(3)
+// Panic & Recover(3)
 package main
 
 import "fmt"
