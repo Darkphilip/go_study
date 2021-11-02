@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-func mainerror() {
+func main() {
 	// 에러 처리
 	// 에러 처리: 소프트웨어의 품질 향상 가장 중요한 것! -> 유형코드 및 에러 정보를 남기는 것
 	// Go에서는 기본적으로 error 패키지에서 error 인터페이스를 제공

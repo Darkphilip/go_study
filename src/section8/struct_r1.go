@@ -14,4 +14,6 @@ func main() {
 	fmt.Println(p)
 	fmt.Printf("Person 구조체형 변수p가 저장된 메모리: %p\n", &p)
 	fmt.Printf("p.name이 저장된 메모리 주소: %p\n", &p.name)
+	fmt.Printf("p.age가 저장된 메모리 주소: %p\n", &p.age)
+	fmt.Printf("p.weight이 저장된 메모리 주소: %p\n", &p.weight)
 }

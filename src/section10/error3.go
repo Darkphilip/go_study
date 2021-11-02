@@ -6,7 +6,7 @@ import (
 	"fmt"
 )
 
-func mainerror3() {
+func main() {
 	// 에러 처리
 	// errors 패키지의 New 메서드를 이용한 에러 생성
 	// Errof보다 많이 사용
